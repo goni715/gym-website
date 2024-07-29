@@ -1,9 +1,16 @@
+import About from "./components/About";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 
 
 const App = () => {
   return (
     <>
-       <h1 className="h-[400px] bg-faq">Gym Website</h1>
+       <div className="max-w-[1440px] mx-auto bg-page">
+        <Header/>
+        <Banner/>
+        <About/>
+       </div>
     </>
   );
 };

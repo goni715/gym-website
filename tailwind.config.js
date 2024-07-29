@@ -13,12 +13,12 @@ export default {
           sm: '2rem',
           md: '3rem',
           lg: '5rem',
-          '2xl': '7rem'
+          // '2xl': '6rem'
         }
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        openSans: ["Open Sans", "sans-serif"]
+        primary: ["Inter", "sans-serif"],
+        secondary: ["Open Sans", "sans-serif"]
       },
       colors: {
         primary: {
