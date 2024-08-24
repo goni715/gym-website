@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <>
            <section className="bg-neutral-500 h-[790px]">
-             <div className="container h-full">
+             <div className="container lg:px-[7rem] h-full">
                 <div className="flex items-center h-full relative -space-x-48 lg:-space-x-24 pl-6 lg:pl-0">
                     {/* text */}
                     <div className="text-white flex-1 z-10">
@@ -21,7 +21,7 @@ const Banner = () => {
                     </div>
 
                     {/* image */}
-                    <div className="bg-blue-300 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1">
+                    <div className="w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1">
                     </div>
                 </div>
              </div>
