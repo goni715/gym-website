@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 
+
+
+
 @layer base {
     body {
       @apply font-secondary text-neutral-400 bg-[#e5e5e5];
@@ -18,10 +21,10 @@
       @apply font-primary text-neutral-500;
     }
     .h1 {
-      @apply text-[40px] leading-[40px] lg:text-[60px] lg:leading-[62px] font-extrabold;
+      @apply text-[40px] leading-10 lg:text-6xl lg:leading-[62px] font-extrabold;
     }
     .h2 {
-      @apply text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold;
+      @apply text-3xl leading-10 lg:text-5xl lg:leading-[50px] font-extrabold;
     }
     .h3 {
       @apply text-[38px] leading-[46px] font-extrabold;
@@ -35,6 +38,17 @@
     .h6 {
       @apply text-[18px] leading-[28px] font-bold;
     }
+   
+  }
+
+
+  /* @layer base{
+    h2{
+      @apply 
+    }
+  } */
+
+  @layer components {
     .text-body-sm {
       @apply font-secondary font-normal text-[16px] leading-[26px];
     }
@@ -63,10 +77,10 @@
       @apply text-neutral-500 text-sm uppercase font-extrabold tracking-[1px];
     }
     .section {
-      @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
+      @apply pb-20 md:pb-28 lg:pb-[180px];
     }
     .section-title-group {
-      @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px];
+      @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-20;
     }
     .section-title {
       @apply flex -space-x-4;

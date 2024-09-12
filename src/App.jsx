@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
+import Workouts from "./components/Workouts";
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <Header/>
         <Banner/>
         <About/>
+        <Workouts/>
        </div>
     </>
   );

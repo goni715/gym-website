@@ -9,7 +9,7 @@ const Banner = () => {
                 <div className="flex items-center h-full relative -space-x-48 lg:-space-x-24 pl-6 lg:pl-0">
                     {/* text */}
                     <div className="text-white flex-1 z-10">
-                        <h1 className="h1 text-white mb-8">
+                        <h1 className="text-[40px] leading-10 lg:text-6xl lg:leading-[62px] font-extrabold differ text-white mb-8">
                             {titlePart1}
                             <br/>
                             <span className="text-primary-200">{titlePart2}</span>
