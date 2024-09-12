@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { header } from "./../data/data";
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
+import { RiMenu4Fill } from "react-icons/ri";
 
 const Header = () => {
   const [sticky, setSticky] = useState(false);
@@ -49,8 +50,7 @@ const Header = () => {
 
           {/* nav menu btn - hidden on desktop */}
           <div onClick={toggleMobileNav} className="lg:hidden absolute right-4 cursor-pointer">
-            <span className="text-primary-200 text-3xl">=</span>
-            {/* <RiMenu4Fill className="text-primary-200 text-3xl"/> */}
+            <RiMenu4Fill className="text-primary-200 text-3xl"/>
           </div>
 
         </div>
