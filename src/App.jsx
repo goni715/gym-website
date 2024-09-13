@@ -15,7 +15,7 @@ const App = () => {
   //aos initialization
   //AOS.init();
   AOS.init({
-    duration: 2500,
+    duration: 2000,
     delay: 400
   })
 
