@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Community from "./components/Community";
 import Faq from "./components/Faq";
+import Join from "./components/Join";
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
         <Pricing/>
         {/* <Community/> */}
         <Faq/>
+        <Join/>
        </div>
     </>
   );
