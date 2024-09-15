@@ -1,13 +1,9 @@
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { about } from "../data/data";
-import {motion, useInView} from 'framer-motion';
-import { useRef } from "react";
 
 const About = () => {
     //destructure about data
     const {title, subtitle1, subtitle2, icon, link} = about;
-    const ref = useRef();
-    const isInView = useInView(ref, {once:true})
 
      
 

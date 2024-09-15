@@ -6,7 +6,6 @@ import Pricing from "./components/Pricing";
 import Workouts from "./components/Workouts";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Community from "./components/Community";
 import Faq from "./components/Faq";
 import Join from "./components/Join";
 import Footer from "./components/Footer";
@@ -34,7 +33,6 @@ const App = () => {
         <About/>
         <Workouts/>
         <Pricing/>
-        {/* <Community/> */}
         <Faq/>
         <Join/>
         <Footer/>

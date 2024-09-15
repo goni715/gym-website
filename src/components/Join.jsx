@@ -12,7 +12,7 @@ const Join = () => {
                         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="200" className="-mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-full">
                             <img src={image} alt="ioin_image" />
                         </div>
-                        {/* text */}
+                        {/* text data-aos="fade-left"*/}
                         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="200" className="max-w-[350px] lg:max-w-[492px] ml-[30px]">
                             <h1 className="text-[40px] leading-10 md:text-6xl lg:leading-[62px] font-extrabold mb-4 lg:mb-6 text-white">
                                 Want to join <span className="text-primary-200">&</span> have fun?
