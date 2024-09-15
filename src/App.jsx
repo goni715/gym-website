@@ -7,6 +7,7 @@ import Workouts from "./components/Workouts";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Community from "./components/Community";
+import Faq from "./components/Faq";
 
 
 
@@ -31,7 +32,8 @@ const App = () => {
         <About/>
         <Workouts/>
         <Pricing/>
-        <Community/>
+        {/* <Community/> */}
+        <Faq/>
        </div>
     </>
   );
