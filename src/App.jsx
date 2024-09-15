@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import Community from "./components/Community";
 import Faq from "./components/Faq";
 import Join from "./components/Join";
+import Footer from "./components/Footer";
 
 
 
@@ -36,6 +37,7 @@ const App = () => {
         {/* <Community/> */}
         <Faq/>
         <Join/>
+        <Footer/>
        </div>
     </>
   );
